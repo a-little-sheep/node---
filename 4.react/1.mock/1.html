@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="root">
+
+</div>
+<script src="component.js"></script>
+<script src="1.js"></script>
+<script>
+let root = document.querySelector('#root');
+//就是把button这个DOM对象放在root的内部
+new Button().mount(root);
+</script>
+</body>
+</html>
